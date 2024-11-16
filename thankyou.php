@@ -2,9 +2,9 @@
   require_once("./includes/php/functions.php");
 
   session_start();
-  $url = "http://localhost/survey/admin";
+  $url = "https://wa.me/2348112415936";
 
-  if (!isset($_SESSION['status'])){ //make cookie ndex line 28
+  if (!isset($_COOKIE['status'])){ //make cookie ndex line 28
     header("location: ./");
   } else {
     header ("refresh: 5; url={$url}");

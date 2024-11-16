@@ -33,7 +33,8 @@ CREATE TABLE `answers` (
 
 
 INSERT INTO su (user)
-VALUES ("1284c46b17dcc567c84db0b63395bb7294e");
+/*VALUES ("1284c46b17dcc567c84db0b63395bb7294e");*/
+VALUES ("45b9301c2bdaa937382ae6a75751a94a42d");
 
 INSERT INTO questions (name, question) VALUES
 ("question_1", "V2hhdCBkbyB5b3UgdGhpbmsgb2YgY2hhdGJvdHM/Fg=="),

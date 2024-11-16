@@ -9,8 +9,10 @@
   function yesNo($q, $n){
     echo ("
       Question {$n}: <br>
-      Yes: ".percentage($q['yes'], $q['total'])."<br>
-      No: ".percentage($q['no'], $q['total'])."<br><br>"
+      Yes: ".percentage($q['yes'], $q['total'])." ||
+      {$q['yes']}<br>
+      No: ".percentage($q['no'], $q['total'])." ||
+      {$q['no']}<br><br>"
     );
   }
 

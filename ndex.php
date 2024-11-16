@@ -25,7 +25,7 @@
         $ins = database_insert($con, "answers", $data);
         switch ($ins['code']) {
           case '200':
-            $_SESSION['status'] = 400; // make cookie thankyou line 5
+            setcookie("status", 400, time() + (60*30));
             header("location: ./thankyou.php");
             break;            
           default:
