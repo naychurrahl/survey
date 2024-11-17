@@ -26,7 +26,7 @@
   }
 
   $data = database_fetch_table($con, "answers");
-  $q3 = $q4 = $q6 = ["yes" => 0, "no" => 0, "total" => 0];
+  $q3 = $q4 = $q6 = $q8 = ["yes" => 0, "no" => 0, "total" => 0];
   foreach ($data['message'] as $value) {
     if(!$value['answer']){
       continue;
@@ -92,5 +92,6 @@
   prose($q5, 5);
   yesNo($q6, 6);
   prose($q7, 7);
+  yesNo($q8, 8);
 
 ?>

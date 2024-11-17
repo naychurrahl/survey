@@ -8,25 +8,14 @@
 }
 
 .background_image {
-  background: url("../../media/bg.png") no-repeat center fixed;
+  background: url("../media/bg.png") no-repeat center fixed;
   background-size: contain;
-  filter: blur(8px);
+  filter: blur(5px);
   height: 100%;
-  opacity: .8;
+  opacity: .7;
   position: fixed;
   width: 100%;
   z-index: -1;
-}
-
-.card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: rgba(2, 48, 23, 0.479);
-  border-radius: 25px;
-  opacity: .7;
-  padding: 20px;
 }
 
 .container {
@@ -61,18 +50,14 @@
   display: none;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(183, 177, 211);
-}
 body {
   font-family: 'Nunito', sans-serif;
   background-color: rgba(0, 0, 0, 0.9);
   color: #c5d7e6;
+  height: 100vh;
   width: 100vw;
   min-width: 100vmin;
   max-width: 100vmax;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +92,7 @@ form {
   padding: 10px 20px;
 }
 
-h1{
+h1 {
   margin: 0 0 30px 0;
   text-align: center;
 }

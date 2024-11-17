@@ -19,7 +19,8 @@
           ["user" => $user, "question" => 4, "answer" => $_POST['question_4']],
           ["user" => $user, "question" => 5, "answer" => $_POST['question_5']],
           ["user" => $user, "question" => 6, "answer" => $_POST['question_6']],
-          ["user" => $user, "question" => 7, "answer" => $_POST['question_7']]
+          ["user" => $user, "question" => 7, "answer" => $_POST['question_7']],
+          ["user" => $user, "question" => 8, "answer" => $_POST['question_8']],
         ];
 
         $ins = database_insert($con, "answers", $data);
@@ -29,7 +30,7 @@
             header("location: ./thankyou.php");
             break;            
           default:
-            die("Please refresh");
+            die($ins['message']);
             break;
         }
         break;
@@ -41,9 +42,5 @@
   } else {
     header("location: ./");
   }
-
-
- /* naychur => itsfunnyforreal */
-  
 
 ?>

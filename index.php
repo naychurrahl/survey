@@ -43,10 +43,10 @@
     </script>
   </head>
   <body>
-    <div class="bg"></div>
+    <div class="background_image"></div>
     <div class="container">
+      <h1> Les casa des Naychur </h1>
       <form action="ndex.php" method="post">
-        <h1> Les casa des Naychur </h1>
         
         <fieldset>
           
@@ -81,11 +81,16 @@
           
           <label for="question_7" id="question_7_label" style="display: none;"><span class="number">5b</span>How best can I market this service?</label>
             <textarea id="question_7" name="question_7" hidden="hidden"></textarea>
+          
+          <label for="question_8"><span class="number">6</span>Would you be interested in this service now or maybe in the future?</label>
+          <select id="question_8" name="question_8" required>
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
                   
         </fieldset>
         <button type="submit" name="submit">submit</button>
       </form>
     </div>
-    
   </body>
 </html>

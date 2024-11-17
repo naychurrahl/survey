@@ -43,4 +43,5 @@ INSERT INTO questions (name, question) VALUES
 ("question_4", "QXNpZGUgZnJvbSBVQkEncyBMZW8sIFplbml0aCBiYW5rJ3MgWml2YSBhbmQgV2hhdHNhcHAgbWV0YS4gRG8geW91IGtub3cgb2YgYW55IG90aGVyIGNoYXRib3QgaW5lZ3JhdGVkIHdpdGggd2hhdHNhcHA/"),
 ("question_5", "SWYgeWVzLCBraW5kbHkgbWV0aW9uIGJlbG93IChzZXBlcmF0ZSBieSBjb21hIGlmIG1vcmUgdGhhbiBvbmUp"),
 ("question_6", "RG8geW91IHRoaW5rIGl0IGlzIGEgbmljZSBpZGVhIHRvIHByb3ZpZGUgJ2J1aWxkaW5nIGFuZCBpbnRlZ3JhdGluZyBjaGF0Ym90cyB3aXRoIHdoYXRzYXBwIGFzIGEgc2VydmljZT8="),
-("question_7", "SWYgeWVzLCBIb3cgYmVzdCBjYW4gSSBtYXJrZXQgdGhpcyBzZXJ2aWNlPw==");
+("question_7", "SWYgeWVzLCBIb3cgYmVzdCBjYW4gSSBtYXJrZXQgdGhpcyBzZXJ2aWNlPw=="),
+("question_8", "V291bGQgeW91IGJlIGludGVyZXN0ZWQgaW4gdGhpcyBzZXJ2aWNlIG5vdyBvciBtYXliZSBpbiB0aGUgZnV0dXJlPw====");
